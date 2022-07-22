@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'poppins','sans-sarif';
+}
+.main{
+    
+    width: 90%;
+    margin: auto;
+}
+h1{
+    font-size: 2.4rem;
+}
+p{
+    font-size: 1.2rem;
+}
+
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+    margin: auto;
+
+}
+
+.int-content{
+    flex-basis: 70%;
+    margin: 0 0 0 50px;
+    
+}
+
+.int-content h1{
+    margin: 20px 0 0 0;
+}
+.int-content p{
+    margin: 0 0 20px 0;
+}
+.int-image{
+    flex-basis: 20%;
+    margin-right: 10px;
+}
+
+img{
+    width: 175px;
+    height: 200px;
+    border-radius: 50%;
+}
+hr{
+    color: black;
+    border: 2px solid ;
+    margin: 0 0 5px 0;
+}
+
+.contact-content{
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 70%;
+
+    margin-left: 50px;
+}
+.contact-left,
+.contact-right{
+    flex-basis: 50%;
+}
+.contact-right{
+    text-align: end;
+}
+
+.skills-content{
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 100%;
+    
+    margin-left: 50px;
+    margin-top: 15px;
+}
+.skills-left
+{
+    flex-basis: 25%;
+}
+.skills-right{
+    flex-basis: 75%;
+}
+.skills hr{
+    
+    color: rgb(145, 147, 149);
+    margin: 10px 120px 10px 170px;
+}
+
+.objective-content{
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 100%;
+    
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+.objective-left
+{
+    flex-basis: 25%;
+}
+
+.objective-right{
+    flex-basis: 75%;
+}
+
+.Objective hr{
+    
+    color: rgb(145, 147, 149);
+    margin: 10px 120px 10px 170px;
+}
